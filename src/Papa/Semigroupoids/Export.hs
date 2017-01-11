@@ -5,7 +5,7 @@ module Papa.Semigroupoids.Export(
 ) where
 
 import Data.Bifunctor.Apply as P(Bifunctor(bimap, first, second), Biapply((<<.>>), (.>>), (<<.)), (<<$>>), (<<..>>), bilift2, bilift3)
-import Data.Functor.Alt as P(Alt((<!>), some, many))
+import Data.Functor.Alt as P(Alt((<!>)))
 import Data.Functor.Apply as P(Apply((<.>), (.>), (<.)), (<..>), liftF2, liftF3, WrappedApplicative(unwrapApplicative), MaybeApply(runMaybeApply))
 import Data.Functor.Bind as P(Bind((>>-), join), (-<<), (-<-), (->-), apDefault, returning)
 import Data.Functor.Bind.Trans as P(BindTrans(liftB))
